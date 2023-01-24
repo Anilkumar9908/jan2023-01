@@ -1,1 +1,4 @@
 this is my first file in git hub account in jan23
+hello world
+hello india
+hello usa
