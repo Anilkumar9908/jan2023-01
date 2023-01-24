@@ -1,4 +1,5 @@
 
+
 public class Main {
     public Main() {
     }
@@ -25,5 +26,7 @@ public class Main {
         result = (int)((double)(firstNumber / secondNumber) / thirdNumber / fourthNumber);
         System.out.println("DIVISION RESULT:" + result);
         System.out.println("Hello world!");
+	System.out.println("hello india");
+	System.out.println(hello usa");
     }
 }
