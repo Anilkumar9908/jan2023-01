@@ -1,0 +1,29 @@
+
+public class Main {
+    public Main() {
+    }
+
+    public static void main(String[] args) {
+        int firstNumber = 15;
+        int secondNumber = 10;
+        double thirdNumber = 8.0;
+        double fourthNumber = 6.0;
+        int result = firstNumber + secondNumber;
+        System.out.println("ADD RESULT:" + result);
+        result = firstNumber - secondNumber;
+        System.out.println("SUBTRACTION RESULT:" + result);
+        result = firstNumber * secondNumber;
+        System.out.println("MULTIPLICATION RESULT:" + result);
+        result = firstNumber / secondNumber;
+        System.out.println("DIVISION RESULT:" + result);
+        result = (int)((double)(firstNumber + secondNumber) + thirdNumber + fourthNumber);
+        System.out.println("ADD RESULT:" + result);
+        result = (int)((double)(firstNumber - secondNumber) - thirdNumber - fourthNumber);
+        System.out.println("SUBTRACTION RESULT:" + result);
+        result = (int)((double)(firstNumber * secondNumber) * thirdNumber * fourthNumber);
+        System.out.println("MULTIPLICATION RESULT:" + result);
+        result = (int)((double)(firstNumber / secondNumber) / thirdNumber / fourthNumber);
+        System.out.println("DIVISION RESULT:" + result);
+        System.out.println("Hello world!");
+    }
+}
